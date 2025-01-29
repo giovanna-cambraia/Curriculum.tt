@@ -1,0 +1,135 @@
+html, body {
+    overflow-x: hidden;
+    margin: 10px;
+    padding: 0;
+}
+
+#header { 
+    background-color: bisque;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family:'Hubballi', cursive;
+    text-transform: uppercase;
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;         
+}
+
+h1, h2 {
+    margin: 10px; 
+}
+
+#contact {
+    list-style-type: none;
+}
+
+#envelope {
+    width: 30px;
+    color: bisque;
+}
+
+#mobile {
+    width: 30px;
+    color: bisque;
+}
+
+
+#phone {
+    width: 30px;
+    color: bisque;
+}
+
+#pin {
+    width: 30px;
+    color: bisque;
+}
+
+/* TODO: #content, #sidebar {
+TODO: border: 1px solid red; Facilita identificar os limites }*/    
+
+
+#container {
+display: grid;
+grid-template-columns: 40% 70%;
+grid-column-gap: 20px;
+} 
+
+#sidebar, #content {
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+
+}
+
+.card {
+    font-family:'Hubballi', cursive;
+
+}
+
+.all {
+    border: 3px solid;
+    border-style: groove;
+    border-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+  
+
+}
+
+.p {
+    font-family: Montserrat;
+   
+}
+
+.cargo {
+    font-family:'Hubballi', cursive;
+}
+
+#letter {
+    margin-top: 30px;
+    width: 900px;
+    margin-left: 30px;
+}
+
+#experiences {
+    width: 900px;
+    margin-left: 30px;
+}
+
+#footer {
+    font-size: 15px;
+    font-style: italic;
+    width: 700px;
+    border: 3px solid;
+    border-style: groove;
+    border-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+#idiome {
+    border: 3px solid;
+    border-style: groove;
+    border-color: bisque;
+    border-radius: 10px;
+    padding: 15px;
+    width: 900px;
+    margin-left: 30px;
+}
+
+#idiome h1 {
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+
+}
+
+#idiome {
+    font-family: Montserrat;
+}
